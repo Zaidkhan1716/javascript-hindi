@@ -18,13 +18,27 @@ const anotherId = Symbol('123')
 // Reference  (Non primitive)
 
 // Array, Object, Function
-const heros = ["Thor","Shaktiman","Tony" ];
-let myObj  ={
+//const heros = ["Thor","Shaktiman","Tony" ];
+//let myObj  ={
     name: "zaid",
-    age: 20,
-}
-const myFunction = function(){
-    console.log("Hello world");
+    //age: 20,
+//}
+//const myFunction = function(){
+    //console.log("Hello world");
 
-}
- console.log(typeof myFunction)
+//}
+ //console.log(typeof myFunction)
+
+ //********************************************************** */
+
+ // Stack (Primitive), Heap (Non-primitive)
+
+ let myYoutubename = "zaidkhan"
+
+ let anothername = myYoutubename
+ anothername ="chaiaurcode"
+
+ console.log(myYoutubename);
+ console.log(anothername);
+
+ 
